@@ -1,1 +1,189 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.bgcolor {
+  background-color: #0A2640;
+}
+.bgcolor .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.bgcolor .container .navbar {
+  padding-top: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bgcolor .container .navbar .logo {
+  display: flex;
+  align-items: center;
+}
+.bgcolor .container .navbar .logo img {
+  height: 40px;
+}
+.bgcolor .container .navbar .logo h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 43.25px;
+  color: #fff;
+  padding-left: 12px;
+}
+.bgcolor .container .navbar nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+.bgcolor .container .navbar nav ul .nav__link {
+  padding-left: 40px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.nav__link-button {
+  padding: 8px 40px;
+  background-color: #fff;
+  border-radius: 24px;
+  margin-left: 40px;
+  color: #0a2640;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.header__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__section .header__text h1 {
+  font-weight: 400;
+  font-size: 48px;
+  width: 550px;
+  line-height: 72px;
+  color: #fff;
+  padding-top: 1rem;
+}
+.header__section .header__text .header__link-left {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 16px 56px;
+  background: #65E4A3;
+  border: 2px solid #69E6A6;
+  border-radius: 56px;
+}
+.header__section .header__text .header__link-right {
+  padding: 16px 45px;
+  border: 2px solid #fff;
+  border-radius: 56px;
+  color: #fff;
+  margin-left: 1rem;
+}
+.header__section .header__text .header__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  width: 550px;
+  padding-bottom: 40px;
+}
+
+.header__table {
+  padding-top: 71px;
+}
+.header__table .table {
+  display: flex;
+  padding-top: 25px;
+}
+.header__table .header__table2 {
+  width: 250px;
+  padding-right: 38px;
+}
+.header__table .header__table3 {
+  width: 250px;
+}
+
+.logos {
+  padding-top: 56px;
+  padding-bottom: 50px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container h4 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  color: #777;
+  padding-top: 84px;
+}
+.container h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  color: #000;
+  text-align: center;
+  padding-top: 12px;
+}
+.container .card1 {
+  padding-top: 78px;
+}
+.container .card1 h3 {
+  text-align: left;
+  padding-top: 24px;
+  font-weight: 400;
+  font-size: 24px;
+}
+.container .card1 p {
+  color: #777;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  width: 293px;
+}
+.container .card1 a {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #0A2640;
+}
+.container .card1 a span {
+  padding-left: 10px;
+  font-size: 20px;
+  width: 10px;
+}
+
+.men__image {
+  padding-top: 197px;
+}
+.men__image div .men {
+  position: relative;
+}
+.men__image .shadow {
+  position: absolute;
+  right: 10px;
+}/*# sourceMappingURL=main.css.map */
