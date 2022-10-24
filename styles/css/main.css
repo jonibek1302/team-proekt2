@@ -45,6 +45,9 @@ ul {
   color: #fff;
   padding-left: 12px;
 }
+.bgcolor .container .navbar nav {
+  z-index: 1;
+}
 .bgcolor .container .navbar nav ul {
   display: flex;
   justify-content: space-between;
@@ -63,6 +66,12 @@ ul {
   color: #0a2640;
   font-weight: 700;
   font-size: 16px;
+}
+
+.ellipse {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .header__section {
@@ -104,6 +113,7 @@ ul {
 }
 
 .header__table {
+  z-index: 1;
   padding-top: 71px;
 }
 .header__table .table {
@@ -115,6 +125,7 @@ ul {
   padding-right: 38px;
 }
 .header__table .header__table3 {
+  z-index: 1;
   width: 250px;
 }
 
@@ -249,4 +260,77 @@ ul {
   border-radius: 56px;
   display: inline-block;
   margin-top: 56px;
+}
+
+.about__persons-women {
+  padding-top: 250px;
+}
+
+.women__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.person__women {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  width: 291px;
+  height: 388px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.women__title {
+  -moz-text-align-last: left;
+       text-align-last: left;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 56px;
+  padding-bottom: 64px;
+}
+
+.women__description {
+  display: flex;
+  padding: 16px 53px;
+  background: #0A2640;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  margin-top: 24px;
+  color: #fff;
+}
+.women__description .pencil {
+  padding-right: 16px;
+  color: #fff;
+}
+
+.women__description2 {
+  display: flex;
+  padding: 16px 53px;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  margin-top: 24px;
+  color: #000;
+}
+.women__description2 .eye {
+  padding-right: 16px;
+  color: #000;
+  font-size: 20px;
+}
+
+.women__description3 {
+  display: flex;
+  padding: 16px 53px;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  margin-top: 24px;
+  color: #000;
+}
+.women__description3 .sun {
+  padding-right: 16px;
+  color: #000;
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */
