@@ -333,4 +333,121 @@ ul {
   padding-right: 16px;
   color: #000;
   font-size: 20px;
+}
+
+.container2 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.portion {
+  flex: 1;
+}
+
+.testimin {
+  background-color: #0A2640;
+  height: 797px !important;
+  width: 100%;
+  margin-top: 280px;
+}
+
+.testimh2 {
+  padding-top: 96px;
+  color: #fff !important;
+  font-family: Manrope;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 70px;
+}
+
+.tescards {
+  align-items: flex-start;
+}
+
+.testicard {
+  flex: 1;
+  background-color: #fff;
+  margin-right: 20px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  vertical-align: top;
+  box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+}
+
+.testprof {
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  justify-content: left;
+  height: 58px;
+}
+.testprof img {
+  vertical-align: middle;
+}
+
+.profyozv {
+  text-align: left;
+  margin-left: 16px;
+}
+.profyozv h3 {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 10px;
+}
+.profyozv p {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.buyertes {
+  margin: 40px;
+}
+
+.flex {
+  display: flex;
+}
+
+.weconnect {
+  margin-top: 125px;
+}
+
+.vecimgg {
+  padding: 1px 5px;
+  border: #0A2640 1px solid;
+  border-radius: 100px !important;
+  background-color: #0A2640;
+}
+
+.connectword {
+  margin-top: 56px;
+  justify-content: space-between;
+}
+.connectword div h3 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 56px;
+  text-align: left;
+  margin-right: 100px;
+}
+
+.vectorwe {
+  width: 12px;
+  color: white;
+}
+
+.cardcon {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #C4C4C4;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */
