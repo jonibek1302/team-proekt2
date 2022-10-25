@@ -235,7 +235,9 @@ font-size: 14px;
 line-height: 24px;
 display: flex;
 align-items: center;
+justify-content: center;
 color: #0A2640;
+
 }
 .person__text-title{
  font-weight: 400;
@@ -429,10 +431,11 @@ padding-top: 10px;
     margin-top: 125px;
 }
 .vecimgg{
-    padding:1px 5px;
+    padding:0px 6px;
     border:#0A2640 1px solid ;
-    border-radius: 100px  !important;
+    border-radius: 100px ;
     background-color: #0A2640; 
+    
 }
 .connectword{
     margin-top: 56px;
@@ -455,9 +458,75 @@ margin-right: 100px;
 }
 .cardcon{
     padding-bottom: 16px;
+    padding-top: 16px;
     border-bottom: 1px solid #C4C4C4;
     font-size: 20px;
+    
+    a{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between !important;;
+    }
 }
 
+
+//about projekt section
+.btnmore{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnabout{
+    padding: 16px 56px;
+    border: 2px solid #0A2640;
+    color: #0A2640;
+    font-size: 20px;
+    margin: 50px;
+    border-radius: 56px;
+    font-weight: 800;
+}
+.service__title-text11{
+font-size: 48px;
+font-weight: 400;
+line-height: 72px;
+text-align: center;
+
+}
+.cardourser{
+    margin-top: 24px;
+    h4{
+font-size: 16px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+margin: 12px 0;
+span{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #777777;
+}
+    }
+    p{
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+width: 300px;
+margin-bottom: 20px;
+height: 99px;
+    }
+    div{
+        a{
+          display: flex;
+        align-items: center;  
+        img{
+            margin-right: 12px;
+        } 
+        }
+
+       
+    }
+}

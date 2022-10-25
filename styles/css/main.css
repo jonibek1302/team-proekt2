@@ -224,6 +224,7 @@ ul {
   line-height: 24px;
   display: flex;
   align-items: center;
+  justify-content: center;
   color: #0A2640;
 }
 
@@ -421,9 +422,9 @@ ul {
 }
 
 .vecimgg {
-  padding: 1px 5px;
+  padding: 0px 6px;
   border: #0A2640 1px solid;
-  border-radius: 100px !important;
+  border-radius: 100px;
   background-color: #0A2640;
 }
 
@@ -446,8 +447,70 @@ ul {
 
 .cardcon {
   padding-bottom: 16px;
+  padding-top: 16px;
   border-bottom: 1px solid #C4C4C4;
   font-size: 20px;
+}
+.cardcon a {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between !important;
+}
+
+.btnmore {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnabout {
+  padding: 16px 56px;
+  border: 2px solid #0A2640;
+  color: #0A2640;
+  font-size: 20px;
+  margin: 50px;
+  border-radius: 56px;
+  font-weight: 800;
+}
+
+.service__title-text11 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  text-align: center;
+}
+
+.cardourser {
+  margin-top: 24px;
+}
+.cardourser h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 12px 0;
+}
+.cardourser h4 span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+}
+.cardourser p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  width: 300px;
+  margin-bottom: 20px;
+  height: 99px;
+}
+.cardourser div a {
+  display: flex;
+  align-items: center;
+}
+.cardourser div a img {
+  margin-right: 12px;
 }/*# sourceMappingURL=main.css.map */
