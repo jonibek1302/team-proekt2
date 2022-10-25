@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'Manrope', sans-serif;
@@ -248,7 +249,7 @@ padding-bottom: 40px;
 }
 .about__person-text{
     .write{
-        padding: 3px 5px;
+        padding: 3px 10px;
         background-color: #0A2640;
         border-radius: 100%;
         display: inline-block;
@@ -295,6 +296,14 @@ padding-bottom: 40px;
     flex-direction: column;
     align-items: center;
     padding: 30px;
+    ul{
+        padding-top: 22px;
+        li{
+            padding-bottom: 11px;
+            
+        }
+
+    }
 }
 .women__title{
     text-align-last: left;
@@ -324,6 +333,7 @@ padding-bottom: 40px;
     border-radius: 4px;
     margin-top: 24px;
     color: #000;
+
     .eye{
         padding-right: 16px;
         color: #000;
