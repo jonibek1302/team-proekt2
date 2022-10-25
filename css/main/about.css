@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #0A2640;
+  height: 100vh;
+}
+header .header__top-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header__top-box .header__right-top ul {
+  display: flex;
+  list-style-type: none;
+}
+header .header__top-box .header__right-top ul li {
+  margin-right: 40px;
+}
+header .header__top-box .header__right-top ul li a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+header .header__top-box .header__right-top ul li a:hover {
+  color: crimson;
+  transition-duration: 1000ms;
+}
+header .header__top-box .header__right-top ul li .header__button {
+  color: #0A2640;
+  background-color: #fff;
+  padding: 8px 40px;
+  border-radius: 15px;
+}
+header .header__top-box .header__right-top ul li .header__button:hover {
+  color: white;
+  background-color: rgb(61, 61, 61);
+}
+header .header__bottom-box {
+  margin-top: 65px;
+}
+header .header__bottom-box h3 {
+  color: #F1F1F1;
+  font-size: 20px;
+  margin-bottom: 13px;
+  text-align: center;
+}
+header .header__bottom-box h1 {
+  font-size: 64px;
+  color: white;
+  line-height: 84px;
+  width: 850px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+header .header__bottom-box p {
+  font-size: 16px;
+  color: #F1F1F1;
+  line-height: 28px;
+  width: 750px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.hero__box {
+  position: relative;
+  bottom: 120px;
+}
+.hero__box .hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__box .hero__center img {
+  margin-right: 80px;
+  margin-left: 50px;
+}
+
+.handshake__box {
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.handshake__box h3 {
+  font-size: 20px;
+  color: rgba(119, 119, 119, 0.4666666667);
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+.handshake__box h2 {
+  font-size: 48px;
+  color: #000;
+  line-height: 72px;
+  width: 850px;
+  font-weight: 400;
+}
+.handshake__box p {
+  font-weight: 400;
+  color: #777;
+  line-height: 32px;
+}
+
+.numbers__box {
+  background-color: #0A2640;
+  padding: 95px 0;
+  margin-bottom: 100px;
+}
+.numbers__box .numbers__heading {
+  font-size: 20px;
+  color: #F1F1F1;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.numbers__box .numbers__text {
+  color: #fff;
+  margin-bottom: 60px;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  width: 850px;
+  margin: 0 auto;
+}
+.numbers__box .times {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.numbers__box .times h1 {
+  font-size: 95px;
+  color: #4FE9A4;
+  margin-bottom: 32px;
+}
+.numbers__box .times p {
+  font-size: 24px;
+  color: white;
+  text-align: start;
+}
+
+.team__box {
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.team__box h3 {
+  color: #777;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.team__box h1 {
+  font-size: 48px;
+  color: #000;
+  margin-bottom: 23px;
+}
+.team__box p {
+  color: #777;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.peoples__box {
+  margin-bottom: 110px;
+}
+.peoples__box ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  list-style-type: none;
+}
+.peoples__box ul li {
+  margin-right: 50px;
+}
+.peoples__box ul li img {
+  margin-bottom: 25px;
+}
+.peoples__box ul li h3 {
+  font-size: 28px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 12px;
+}
+.peoples__box ul li p {
+  font-size: 20px;
+  color: #777;
+  font-weight: 400;
+}/*# sourceMappingURL=about.css.map */
