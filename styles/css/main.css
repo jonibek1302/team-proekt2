@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -239,7 +238,7 @@ ul {
 }
 
 .about__person-text .write {
-  padding: 3px 10px;
+  padding: 3px 5px;
   background-color: #0A2640;
   border-radius: 100%;
   display: inline-block;
@@ -284,12 +283,6 @@ ul {
   flex-direction: column;
   align-items: center;
   padding: 30px;
-}
-.person__women ul {
-  padding-top: 22px;
-}
-.person__women ul li {
-  padding-bottom: 11px;
 }
 
 .women__title {
@@ -426,6 +419,7 @@ ul {
 
 .weconnect {
   margin-top: 125px;
+  margin-bottom: 150px;
 }
 
 .vecimgg {
@@ -448,7 +442,7 @@ ul {
 }
 
 .vectorwe {
-  width: 12px;
+  width: 28px;
   color: white;
 }
 
@@ -497,6 +491,7 @@ ul {
   letter-spacing: 0em;
   text-align: left;
   margin: 12px 0;
+  color: #0a2640;
 }
 .cardourser h4 span {
   font-style: normal;
@@ -520,4 +515,74 @@ ul {
 }
 .cardourser div a img {
   margin-right: 12px;
+}
+
+.entrpri {
+  background-color: #0a2640;
+  height: 391px;
+  border-radius: 12px;
+  margin-bottom: 90px;
+}
+.entrpri h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 72px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #fff;
+  padding: 72px 210px 0 210px;
+}
+
+.form1 {
+  text-align: center;
+}
+
+.input1 {
+  all: inherit;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #fff;
+  height: 56px;
+  width: 370px;
+  border-radius: 240px;
+  padding: 12px 32px;
+  margin-right: 24px;
+  text-align: left;
+}
+
+.btn1 {
+  all: inherit;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 16px 56px;
+  background-color: #65E4A3;
+  border: 2px solid #65E4A3;
+  border-radius: 56px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+
+.footer {
+  height: 475px;
+  width: 100%;
+}
+
+.cardf1 {
+  flex: 1;
+  background-color: #ff0;
+}
+.cardf1 img {
+  width: 156px;
+}
+
+.cardf2 {
+  flex: 2;
+  background-color: #0f0;
 }/*# sourceMappingURL=main.css.map */
