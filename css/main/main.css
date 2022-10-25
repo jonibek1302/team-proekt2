@@ -18,41 +18,41 @@ ul {
   list-style-type: none;
 }
 
-.bicolor {
+.bgcolor {
   background-color: #0A2640;
 }
-.bicolor .container {
+.bgcolor .container {
   max-width: 1200px;
   margin: 0 auto;
 }
-.bicolor .container .navbar {
+.bgcolor .container .navbar {
   padding-top: 56px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.bicolor .container .navbar .logo {
+.bgcolor .container .navbar .logo {
   display: flex;
   align-items: center;
 }
-.bicolor .container .navbar .logo img {
+.bgcolor .container .navbar .logo img {
   height: 40px;
 }
-.bicolor .container .navbar .logo h3 {
+.bgcolor .container .navbar .logo h3 {
   font-style: normal;
   font-weight: 700;
   font-size: 43.25px;
   color: #fff;
   padding-left: 12px;
 }
-.bicolor .container .navbar nav {
+.bgcolor .container .navbar nav {
   z-index: 1;
 }
-.bicolor .container .navbar nav ul {
+.bgcolor .container .navbar nav ul {
   display: flex;
   justify-content: space-between;
 }
-.bicolor .container .navbar nav ul .nav__link {
+.bgcolor .container .navbar nav ul .nav__link {
   padding-left: 40px;
   color: #fff;
   font-weight: 600;
