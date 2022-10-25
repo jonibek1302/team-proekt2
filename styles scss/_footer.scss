@@ -95,7 +95,11 @@ line-height: 32px;
 font-size: 20px;
 line-height: 32px; 
 color: #777777;
-
+&:hover {
+    color: crimson;
+    transition-duration: 1000ms;
+    
+}
         }   
         }
        

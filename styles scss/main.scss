@@ -516,16 +516,23 @@ margin-right: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    .btnabout{
+        padding: 16px 56px;
+        border: 2px solid #0A2640;
+        color: #0A2640;
+        font-size: 20px;
+        margin: 50px;
+        border-radius: 56px;
+        font-weight: 800;
+     &:hover {
+        background-color: #0A2640;
+        color: black;
+       transition-duration: 1000ms;
+     } 
+    }
 }
-.btnabout{
-    padding: 16px 56px;
-    border: 2px solid #0A2640;
-    color: #0A2640;
-    font-size: 20px;
-    margin: 50px;
-    border-radius: 56px;
-    font-weight: 800;
-}
+
+
 .service__title-text11{
 font-size: 48px;
 font-weight: 400;
@@ -571,6 +578,13 @@ height: 99px;
 
        
     }
+}
+
+.btn1:hover {
+    color: #fff;
+    background-color: #0A2640;
+    cursor: pointer;
+    transition-duration: 1000ms;
 }
 
 

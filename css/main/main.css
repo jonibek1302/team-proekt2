@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -57,6 +58,10 @@ ul {
   color: #fff;
   font-weight: 600;
 }
+.bgcolor .container .navbar nav ul .nav__link:hover {
+  color: crimson;
+  transition-duration: 1000ms;
+}
 
 .nav__link-button {
   padding: 8px 40px;
@@ -66,6 +71,11 @@ ul {
   color: #0a2640;
   font-weight: 700;
   font-size: 16px;
+}
+.nav__link-button:hover {
+  color: white;
+  background-color: rgb(61, 61, 61);
+  transition-duration: 1000ms;
 }
 
 .ellipse {
@@ -96,12 +106,23 @@ ul {
   border: 2px solid #69E6A6;
   border-radius: 56px;
 }
+.header__section .header__text .header__link-left:hover {
+  background-color: #0A2640;
+  color: #4FE9A4;
+  transition-duration: 1000ms;
+}
 .header__section .header__text .header__link-right {
   padding: 16px 45px;
-  border: 2px solid #fff;
+  border: 2px solid #69E6A6;
   border-radius: 56px;
   color: #fff;
   margin-left: 1rem;
+}
+.header__section .header__text .header__link-right:hover {
+  background-color: #0A2640;
+  color: #000;
+  transition-duration: 1000ms;
+  background: #65E4A3;
 }
 .header__section .header__text .header__description {
   font-weight: 400;
@@ -182,6 +203,10 @@ ul {
   line-height: 36px;
   color: #0A2640;
 }
+.container .card1 a:hover {
+  color: crimson;
+  transition-duration: 1000ms;
+}
 .container .card1 a span {
   padding-left: 10px;
   font-size: 20px;
@@ -238,7 +263,7 @@ ul {
 }
 
 .about__person-text .write {
-  padding: 3px 5px;
+  padding: 3px 10px;
   background-color: #0A2640;
   border-radius: 100%;
   display: inline-block;
@@ -262,6 +287,12 @@ ul {
   display: inline-block;
   margin-top: 56px;
 }
+.about__person-text a:hover {
+  background-color: #0A2640;
+  color: #000;
+  transition-duration: 1000ms;
+  background: #65E4A3;
+}
 
 .about__persons-women {
   padding-top: 250px;
@@ -283,6 +314,12 @@ ul {
   flex-direction: column;
   align-items: center;
   padding: 30px;
+}
+.person__women ul {
+  padding-top: 20px;
+}
+.person__women ul li {
+  padding-bottom: 11px;
 }
 
 .women__title {
@@ -463,8 +500,7 @@ ul {
   justify-content: center;
   align-items: center;
 }
-
-.btnabout {
+.btnmore .btnabout {
   padding: 16px 56px;
   border: 2px solid #0A2640;
   color: #0A2640;
@@ -472,6 +508,11 @@ ul {
   margin: 50px;
   border-radius: 56px;
   font-weight: 800;
+}
+.btnmore .btnabout:hover {
+  background-color: #0A2640;
+  color: black;
+  transition-duration: 1000ms;
 }
 
 .service__title-text11 {
@@ -515,6 +556,13 @@ ul {
 }
 .cardourser div a img {
   margin-right: 12px;
+}
+
+.btn1:hover {
+  color: #fff;
+  background-color: #0A2640;
+  cursor: pointer;
+  transition-duration: 1000ms;
 }
 
 .entrpri {
@@ -612,6 +660,10 @@ ul {
   font-size: 20px;
   line-height: 32px;
   color: #777777;
+}
+.footli ul li a:hover {
+  color: crimson;
+  transition-duration: 1000ms;
 }
 
 .btnft {
