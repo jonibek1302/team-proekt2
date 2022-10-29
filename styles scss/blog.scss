@@ -12,9 +12,9 @@ a {
 
 .header_box {
   display: flex;
-  padding: 63px;
+  padding: 63px 0;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .header_ul {
   display: flex;
@@ -33,26 +33,21 @@ a {
   border-radius: 25px;
 }
 // header-end.
-.container2 {
-  width: 1200px;
+.child {
+ /* width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
-.comment {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
+  justify-content: center;*/
   display: flex;
-  align-items: center;
-  color: #0a2640;
-  text-align: center;
-  margin: 0 auto;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+
+
+
 .text {
   font-size: 64px;
   font-weight: 400;
@@ -61,7 +56,9 @@ a {
 //thoughts start
 .thoughts {
   display: flex;
-  margin-left: 180px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 }
 .thoughts_right {
   margin-right: 100px;
@@ -83,10 +80,7 @@ font-weight: 400;
 font-size: 48px;
 
 }
-.img {
-  
-  
-}
+
 .thoughts_right_span2 {
   font-weight: 400;
 font-size: 16px;

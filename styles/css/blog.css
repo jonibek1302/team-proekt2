@@ -13,9 +13,9 @@ a {
 
 .header_box {
   display: flex;
-  padding: 63px;
+  padding: 63px 0;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .header_ul {
@@ -37,26 +37,16 @@ a {
   border-radius: 25px;
 }
 
-.container2 {
-  width: 1200px;
-  margin: 0 auto;
+.child {
+  /* width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;*/
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.comment {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
-  display: flex;
-  align-items: center;
-  color: #0a2640;
-  text-align: center;
-  margin: 0 auto;
+  justify-content: space-between;
 }
 
 .text {
@@ -67,7 +57,9 @@ a {
 
 .thoughts {
   display: flex;
-  margin-left: 180px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .thoughts_right {
