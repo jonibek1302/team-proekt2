@@ -22,9 +22,9 @@ a {
 
 .header_box {
   display: flex;
-  padding: 63px 0;
+  padding: 63px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .header_ul {
@@ -59,16 +59,26 @@ a {
   transition-duration: 1000ms;
 }
 
-.child {
-  /* width: 1200px;
-   margin: 0 auto;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;*/
+.container2 {
+  width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+
+.comment {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #0a2640;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .text {
@@ -79,9 +89,7 @@ a {
 
 .thoughts {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
+  margin-left: 180px;
 }
 
 .thoughts_right {

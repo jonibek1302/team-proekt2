@@ -53,6 +53,11 @@ ul{
                         padding-left: 40px;
                         color: #fff;
                         font-weight: 600;
+                        &:hover {
+                            color: crimson;
+                            transition-duration: 1000ms;
+              
+                          }
                      
                     }
                 }
@@ -68,6 +73,12 @@ ul{
     color: #0a2640;
     font-weight: 700;
     font-size: 16px;
+    &:hover {
+        color: white;
+        background-color: rgb(61, 61, 61);
+        transition-duration: 1000ms;
+
+      }
 }
 // finish navbar
 
@@ -99,14 +110,26 @@ ul{
             background: #65E4A3;
             border: 2px solid #69E6A6;
             border-radius: 56px;
+            &:hover {
+                background-color: #0A2640;
+                color: #4FE9A4;
+                transition-duration: 1000ms;
+              }
         }
         
         .header__link-right{
             padding: 16px 45px;
-            border: 2px solid #fff;
+            border: 2px solid #69E6A6;
             border-radius: 56px;
             color: #fff;
             margin-left: 1rem;
+            &:hover {
+                background-color: #0A2640;
+                color: #000;
+                transition-duration: 1000ms;
+            background: #65E4A3;
+
+              }
         }
         .header__description{
             font-weight: 400;
@@ -190,6 +213,11 @@ ul{
             font-size: 20px;
             line-height: 36px;
             color: #0A2640;
+            &:hover {
+                color: crimson;
+                transition-duration: 1000ms;
+  
+              }
             
             span{
                 padding-left: 10px;
@@ -272,6 +300,13 @@ padding-bottom: 40px;
         border-radius: 56px;
         display: inline-block;
         margin-top: 56px;
+        &:hover {
+            background-color: #0A2640;
+            color: #000;
+            transition-duration: 1000ms;
+        background: #65E4A3;
+
+          }
     }
 }
 // finish person men
@@ -297,12 +332,10 @@ padding-bottom: 40px;
     align-items: center;
     padding: 30px;
     ul{
-        padding-top: 22px;
+        padding-top: 20px;
         li{
             padding-bottom: 11px;
-            
         }
-
     }
 }
 .women__title{
@@ -333,7 +366,6 @@ padding-bottom: 40px;
     border-radius: 4px;
     margin-top: 24px;
     color: #000;
-
     .eye{
         padding-right: 16px;
         color: #000;
@@ -439,6 +471,7 @@ padding-top: 10px;
 //we connect
 .weconnect{
     margin-top: 125px;
+    margin-bottom: 150px;
 }
 .vecimgg{
     padding:0px 6px;
@@ -461,9 +494,7 @@ margin-right: 100px;
     }
 }
 .vectorwe{
-   
-    width: 12px;
-    
+    width: 28px;
     color: white;
 }
 .cardcon{
@@ -474,7 +505,7 @@ margin-right: 100px;
     
     a{
     display: flex;
-    justify-content: space-between !important;;
+    justify-content: space-between !important;
     }
 }
 
@@ -511,6 +542,7 @@ line-height: 28px;
 letter-spacing: 0em;
 text-align: left;
 margin: 12px 0;
+color: #0a2640;
 span{
     font-style: normal;
 font-weight: 400;
@@ -540,3 +572,7 @@ height: 99px;
        
     }
 }
+
+
+
+@import "footer";
